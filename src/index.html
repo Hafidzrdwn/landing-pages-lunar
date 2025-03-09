@@ -5,69 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DigiPremium - Premium Digital Products</title>
     <link rel="stylesheet" href="./style.css" />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              blue: {
-                50: "#eff6ff",
-                100: "#dbeafe",
-                200: "#bfdbfe",
-                300: "#93c5fd",
-                400: "#60a5fa",
-                500: "#3b82f6",
-                600: "#2563eb",
-                700: "#1d4ed8",
-                800: "#1e40af",
-                900: "#1e3a8a",
-              },
-            },
-          },
-        },
-      };
-    </script>
   </head>
   <body class="min-h-screen bg-white">
     <!-- Navigation -->
     <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
         <div class="flex justify-between h-16">
           <div class="flex items-center">
-            <div class="flex-shrink-0 flex items-center">
-              <span class="text-blue-600 font-bold text-2xl">DigiPremium</span>
+            <div class="flex items-center gap-3">
+              <img src="./images/logo.png" alt="Logo Lunar Store" width="45" />
+              <span class="text-blue-600 font-bold text-[20px]"
+                >Lunar Store</span
+              >
             </div>
           </div>
           <div class="hidden md:flex items-center space-x-8">
             <a
-              href="#features"
+              href=""
               class="text-gray-700 hover:text-blue-600 transition-colors"
-              >Features</a
+              >Home</a
             >
             <a
-              href="#products"
+              href=""
               class="text-gray-700 hover:text-blue-600 transition-colors"
-              >Products</a
+              >About Us</a
             >
             <a
-              href="#testimonials"
+              href=""
               class="text-gray-700 hover:text-blue-600 transition-colors"
               >Testimonials</a
             >
             <a
-              href="#pricing"
+              href=""
               class="text-gray-700 hover:text-blue-600 transition-colors"
               >Pricing</a
             >
             <a
-              href="#contact"
+              href=""
               class="text-gray-700 hover:text-blue-600 transition-colors"
               >Contact</a
             >
             <button
-              class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
             >
-              Get Started
+              Login Now
             </button>
           </div>
           <div class="md:hidden flex items-center">
@@ -94,7 +75,7 @@
 
     <!-- Hero Section -->
     <section
-      class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20"
+      class="relative bg-gradient-to-r from-blue-500 to-blue-800 text-white py-20"
     >
       <div class="absolute inset-0 overflow-hidden">
         <div class="absolute left-0 right-0 top-0 bg-white/10 h-[1px]"></div>
@@ -106,52 +87,45 @@
           class="absolute -right-40 -bottom-40 h-80 w-80 rounded-full bg-white/10 blur-3xl"
         ></div>
       </div>
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-14 relative">
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Premium Digital Products for Modern Businesses
+              Premium Apps for Work, Lifestyle & Beyond
             </h1>
             <p class="text-xl mb-8 text-blue-100">
-              Elevate your business with our high-quality digital solutions
-              designed for growth and innovation.
+              Boost productivity, enhance your lifestyle, and simplify daily
+              tasks with top-tier digital solutions.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
               <button
-                class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md font-medium text-lg"
+                class="bg-white text-blue-500 hover:bg-blue-50 px-6 py-3 rounded-md font-medium text-lg"
               >
-                Explore Products
+                Order Now
               </button>
               <button
                 class="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-md font-medium text-lg"
               >
-                Learn More
+                Explore More
               </button>
             </div>
           </div>
-          <div class="relative">
-            <div
-              class="relative z-10 bg-white rounded-lg shadow-xl overflow-hidden"
-            >
-              <img
-                src="https://placehold.co/800x600/FFFFFF/CCCCCC?text=Digital+Products+Dashboard"
-                alt="Digital Products Dashboard"
-                class="w-full h-auto"
-              />
-            </div>
-            <div
-              class="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-blue-400 rounded-lg"
-            ></div>
+          <div class="relative w-3/4 mx-auto">
+            <img
+              src="./images/hero-image.svg"
+              alt="Hero Images Lunar"
+              class="w-full h-auto"
+            />
           </div>
         </div>
       </div>
     </section>
 
     <!-- Trusted By Section -->
-    <section class="py-12 bg-gray-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-gray-500 mb-8">
-          Trusted by leading companies worldwide
+    <section class="py-14 bg-[#e4e2dd]/30">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
+        <p class="text-center text-gray-600 mb-8 text-lg">
+          Trusted to fulfil your digital app needs
         </p>
         <div
           class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center"
@@ -224,12 +198,12 @@
     <section id="features" class="py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">
-            Powerful Features for Your Business
+          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
+            Unlock the Full Potential of Your Digital Experience
           </h2>
-          <p class="text-xl text-gray-600">
-            Our premium digital products come with everything you need to
-            succeed in today's competitive market.
+          <p class="text-xl text-blue-500">
+            Get premium digital products with top-tier features designed to
+            elevate your business and gaming needs effortlessly. 🚀
           </p>
         </div>
 
@@ -237,7 +211,7 @@
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -253,17 +227,17 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Lightning Fast</h3>
+            <h3 class="text-xl font-semibold mb-3">Quick Service</h3>
             <p class="text-gray-600">
-              Optimized for speed and performance to keep your business running
-              smoothly.
+              Fast, responsive, and hassle-free—we ensure every client request
+              is met with top-tier service in no time!
             </p>
           </div>
 
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -279,17 +253,17 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Global Reach</h3>
+            <h3 class="text-xl font-semibold mb-3">Global Access</h3>
             <p class="text-gray-600">
-              Connect with customers around the world with our international
-              solutions.
+              Seamlessly purchase and access digital products from anywhere in
+              the world—no restrictions, no hassle.
             </p>
           </div>
 
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -305,17 +279,17 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Scalable Design</h3>
+            <h3 class="text-xl font-semibold mb-3">Scalable & Flexible</h3>
             <p class="text-gray-600">
-              Grow your business without worrying about outgrowing your digital
-              tools.
+              Whether you're an individual or a business, our platform grows
+              with you, offering the best digital solutions without limits.
             </p>
           </div>
 
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -331,16 +305,17 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Innovative Solutions</h3>
+            <h3 class="text-xl font-semibold mb-3">Exclusive & Innovative</h3>
             <p class="text-gray-600">
-              Stay ahead of the curve with cutting-edge digital products.
+              Get the latest premium apps, top-up services, and digital tools at
+              the best prices—only at Lunar Store!
             </p>
           </div>
 
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -356,17 +331,17 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">24/7 Support</h3>
+            <h3 class="text-xl font-semibold mb-3">24/7 Priority Support</h3>
             <p class="text-gray-600">
-              Our team is always available to help you with any issues or
-              questions.
+              Our expert team is available around the clock to assist you with
+              any questions or issues.
             </p>
           </div>
 
           <div
             class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
           >
-            <div class="text-blue-600 mb-4">
+            <div class="text-blue-500 mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -382,9 +357,10 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Quality Guaranteed</h3>
+            <h3 class="text-xl font-semibold mb-3">Trusted & Secure</h3>
             <p class="text-gray-600">
-              We stand behind our products with a 100% satisfaction guarantee.
+              Shop with confidence—our platform guarantees 100% secure
+              transactions and verified digital products.
             </p>
           </div>
         </div>
@@ -395,10 +371,10 @@
     <section id="products" class="py-20 bg-gradient-to-b from-white to-blue-50">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
             Our Premium Digital Products
           </h2>
-          <p class="text-xl text-gray-600">
+          <p class="text-xl text-blue-500">
             Explore our range of high-quality digital solutions designed to help
             your business thrive.
           </p>
@@ -522,7 +498,7 @@
 
         <div class="text-center mt-12">
           <button
-            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium text-lg"
+            class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium text-lg"
           >
             View All Products
           </button>
@@ -534,10 +510,10 @@
     <section id="testimonials" class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
             What Our Clients Say
           </h2>
-          <p class="text-xl text-gray-600">
+          <p class="text-xl text-blue-500">
             Don't just take our word for it. Here's what our satisfied customers
             have to say.
           </p>
@@ -620,10 +596,10 @@
     <section id="pricing" class="py-20 bg-blue-50">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
             Simple, Transparent Pricing
           </h2>
-          <p class="text-xl text-gray-600">
+          <p class="text-xl text-blue-500">
             Choose the plan that works best for your business needs.
           </p>
         </div>
@@ -873,7 +849,7 @@
                 </li>
               </ul>
               <button
-                class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
               >
                 Get Started
               </button>
@@ -1232,7 +1208,7 @@
               </div>
 
               <button
-                class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
               >
                 Send Message
               </button>

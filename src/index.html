@@ -8,8 +8,8 @@
   </head>
   <body class="min-h-screen bg-white">
     <!-- Navigation -->
-    <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-100">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <a href="#" class="flex items-center gap-3">
@@ -19,44 +19,44 @@
               >
             </a>
           </div>
-          <div class="hidden md:flex items-center space-x-8">
+          <div class="items-center hidden space-x-8 md:flex">
             <a
-              href=""
-              class="text-gray-700 hover:text-blue-600 transition-colors"
+              href="./index.html"
+              class="text-blue-600 transition-colors hover:text-blue-600"
               >Home</a
             >
             <a
-              href=""
-              class="text-gray-700 hover:text-blue-600 transition-colors"
+              href="./aboutus.html"
+              class="text-gray-700 transition-colors hover:text-blue-600"
               >About Us</a
             >
             <a
-              href=""
-              class="text-gray-700 hover:text-blue-600 transition-colors"
+              href="#testimonials"
+              class="text-gray-700 transition-colors hover:text-blue-600"
               >Testimonials</a
             >
             <a
-              href=""
-              class="text-gray-700 hover:text-blue-600 transition-colors"
+              href="#pricing"
+              class="text-gray-700 transition-colors hover:text-blue-600"
               >Pricing</a
             >
             <a
-              href=""
-              class="text-gray-700 hover:text-blue-600 transition-colors"
+              href="#contact"
+              class="text-gray-700 transition-colors hover:text-blue-600"
               >Contact</a
             >
             <a
               href="./login.html"
-              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+              class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
             >
               Login Now
             </a>
           </div>
-          <div class="md:hidden flex items-center">
+          <div class="flex items-center md:hidden">
             <button class="text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                class="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -76,36 +76,36 @@
 
     <!-- Hero Section -->
     <section
-      class="relative bg-gradient-to-r from-blue-500 to-blue-800 text-white py-20"
+      class="relative py-20 text-white bg-gradient-to-r from-blue-500 to-blue-800"
     >
       <div class="absolute inset-0 overflow-hidden">
         <div class="absolute left-0 right-0 top-0 bg-white/10 h-[1px]"></div>
         <div class="absolute left-0 right-0 bottom-0 bg-white/5 h-[1px]"></div>
         <div
-          class="absolute -left-40 -top-40 h-80 w-80 rounded-full bg-white/10 blur-3xl"
+          class="absolute rounded-full -left-40 -top-40 h-80 w-80 bg-white/10 blur-3xl"
         ></div>
         <div
-          class="absolute -right-40 -bottom-40 h-80 w-80 rounded-full bg-white/10 blur-3xl"
+          class="absolute rounded-full -right-40 -bottom-40 h-80 w-80 bg-white/10 blur-3xl"
         ></div>
       </div>
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14 relative">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="container relative px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="grid items-center gap-12 md:grid-cols-2">
           <div>
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h1 class="mb-6 text-4xl font-bold md:text-5xl lg:text-6xl">
               Premium Apps for Work, Lifestyle & Beyond
             </h1>
-            <p class="text-xl mb-8 text-blue-100">
+            <p class="mb-8 text-xl text-blue-100">
               Boost productivity, enhance your lifestyle, and simplify daily
               tasks with top-tier digital solutions.
             </p>
-            <div class="flex flex-col sm:flex-row gap-4">
+            <div class="flex flex-col gap-4 sm:flex-row">
               <button
-                class="bg-white text-blue-500 hover:bg-blue-50 px-6 py-3 rounded-md font-medium text-lg"
+                class="px-6 py-3 text-lg font-medium text-blue-500 bg-white rounded-md hover:bg-blue-50"
               >
                 Order Now
               </button>
               <button
-                class="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-md font-medium text-lg"
+                class="px-6 py-3 text-lg font-medium text-white border border-white rounded-md hover:bg-white/10"
               >
                 Explore More
               </button>
@@ -124,15 +124,15 @@
 
     <!-- Trusted By Section -->
     <section class="pb-14 pt-10 bg-[#e4e2dd]/30">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <p class="text-center text-gray-600 mb-12 text-xl">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <p class="mb-12 text-xl text-center text-gray-600">
           Trusted to fulfil your digital app needs
         </p>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center"
+          class="grid items-center grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6 justify-items-center"
         >
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/netf.png"
@@ -142,7 +142,7 @@
             />
           </div>
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/youtube.svg"
@@ -152,7 +152,7 @@
             />
           </div>
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/spotify.svg"
@@ -162,7 +162,7 @@
             />
           </div>
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/canva.svg"
@@ -172,7 +172,7 @@
             />
           </div>
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/ml.png"
@@ -182,7 +182,7 @@
             />
           </div>
           <div
-            class="h-12 flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            class="flex items-center justify-center h-12 transition-all grayscale opacity-70 hover:grayscale-0 hover:opacity-100"
           >
             <img
               src="./images/gpt.png"
@@ -197,27 +197,27 @@
 
     <!-- Features Section -->
     <section id="features" class="py-20">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="max-w-3xl mx-auto mb-16 text-center">
+          <h2 class="mb-4 text-3xl font-bold text-blue-600 md:text-4xl">
             Unlock the Full Potential of Your Digital Experience
           </h2>
-          <p class="text-xl text-blue-500">
+          <p class="text-xl text-gray-500">
             Get premium digital products with top-tier features designed to
             elevate your business and gaming needs effortlessly. 🚀
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -231,12 +231,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               Quick Service
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Fast, responsive, and hassle-free—we ensure every client request
               is met with top-tier service in no time!
@@ -244,14 +244,14 @@
           </div>
 
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -265,12 +265,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               Global Access
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Seamlessly purchase and access digital products from anywhere in
               the world—no restrictions, no hassle.
@@ -278,14 +278,14 @@
           </div>
 
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -299,12 +299,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               Scalable & Flexible
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Whether you're an individual or a business, our platform grows
               with you, offering the best digital solutions without limits.
@@ -312,14 +312,14 @@
           </div>
 
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -333,12 +333,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               Exclusive & Innovative
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Get the latest premium apps, top-up services, and digital tools at
               the best prices—only at Lunar Store!
@@ -346,14 +346,14 @@
           </div>
 
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -367,12 +367,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               24/7 Priority Support
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Our expert team is available around the clock to assist you with
               any questions or issues.
@@ -380,14 +380,14 @@
           </div>
 
           <div
-            class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 transition-all duration-300 transform group"
+            class="p-8 transition-all duration-300 transform bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:scale-105 hover:border-blue-300 hover:bg-blue-50/30 group"
           >
             <div
-              class="text-blue-500 mb-4 group-hover:text-blue-600 transition-transform duration-300"
+              class="mb-4 text-blue-500 transition-transform duration-300 group-hover:text-blue-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -401,12 +401,12 @@
               </svg>
             </div>
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors duration-300"
+              class="mb-3 text-xl font-semibold transition-colors duration-300 group-hover:text-blue-600"
             >
               Trusted & Secure
             </h3>
             <p
-              class="text-gray-600 group-hover:text-gray-800 transition-colors duration-300"
+              class="text-gray-600 transition-colors duration-300 group-hover:text-gray-800"
             >
               Shop with confidence—our platform guarantees 100% secure
               transactions and verified digital products.
@@ -418,41 +418,41 @@
 
     <!-- Products Section -->
     <section id="products" class="py-20 bg-gradient-to-b from-white to-blue-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="max-w-3xl mx-auto mb-16 text-center">
+          <h2 class="mb-4 text-3xl font-bold text-blue-600 md:text-4xl">
             Our Premium Digital Products
           </h2>
-          <p class="text-xl text-blue-500">
+          <p class="text-xl text-gray-500">
             Explore our range of high-quality digital solutions designed to help
             your business thrive.
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div
-            class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+            class="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg"
           >
-            <div class="relative h-48 bg-blue-100">
+            <div class="relative h-64 bg-blue-100">
               <img
-                src="https://placehold.co/400x300/FFFFFF/CCCCCC?text=Dashboard"
-                alt="Enterprise Dashboard"
-                class="w-full h-full object-cover"
+                src="./images/premium apps.png"
+                alt="Premium Apps"
+                class="object-cover w-full h-full"
               />
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold mb-3">Premium Apps</h3>
-              <p class="text-gray-600 mb-4">
+              <h3 class="mb-3 text-xl font-semibold">Premium Apps</h3>
+              <p class="mb-4 text-gray-600">
                 Unlock exclusive features, enjoy an ad-free experience, and get
                 priority support for the ultimate performance!
               </p>
               <button
-                class="text-blue-500 border border-blue-500 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-md inline-flex items-center transition-all"
+                class="inline-flex items-center px-4 py-2 text-blue-500 transition-all border border-blue-500 rounded-md hover:bg-blue-600 hover:text-white"
               >
                 Learn More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="ml-2 h-4 w-4"
+                  class="w-4 h-4 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -469,29 +469,29 @@
           </div>
 
           <div
-            class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+            class="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg"
           >
-            <div class="relative h-48 bg-blue-100">
+            <div class="relative h-64 bg-blue-100">
               <img
-                src="https://placehold.co/400x300/FFFFFF/CCCCCC?text=E-commerce"
-                alt="E-commerce Platform"
-                class="w-full h-full object-cover"
+                src="./images/topup ml.png"
+                alt="Topup Mobile Legends"
+                class="object-cover w-full h-full"
               />
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold mb-3">Top Up Mobile Legends</h3>
-              <p class="text-gray-600 mb-4">
+              <h3 class="mb-3 text-xl font-semibold">Top Up Mobile Legends</h3>
+              <p class="mb-4 text-gray-600">
                 Instantly recharge your diamonds and enjoy seamless gameplay!
                 Secure, fast, and hassle-free transactions to keep you ahead in
                 every battle!
               </p>
               <button
-                class="text-blue-500 border border-blue-500 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-md inline-flex items-center transition-all"
+                class="inline-flex items-center px-4 py-2 text-blue-500 transition-all border border-blue-500 rounded-md hover:bg-blue-600 hover:text-white"
               >
                 Learn More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="ml-2 h-4 w-4"
+                  class="w-4 h-4 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -508,31 +508,31 @@
           </div>
 
           <div
-            class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+            class="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg"
           >
-            <div class="relative h-48 bg-blue-100">
+            <div class="relative h-64 bg-blue-1004">
               <img
-                src="https://placehold.co/400x300/FFFFFF/CCCCCC?text=Marketing"
-                alt="Marketing Automation"
-                class="w-full h-full object-cover"
+                src="./images/edu features.png"
+                alt="Education Features"
+                class="object-cover w-full h-full"
               />
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-semibold mb-3">
+              <h3 class="mb-3 text-xl font-semibold">
                 Education Premium Features
               </h3>
-              <p class="text-gray-600 mb-4">
+              <p class="mb-4 text-gray-600">
                 Unlock advanced learning tools, exclusive content, and an
                 ad-free experience for a smarter, more engaging education
                 journey!
               </p>
               <button
-                class="text-blue-500 border border-blue-500 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-md inline-flex items-center transition-all"
+                class="inline-flex items-center px-4 py-2 text-blue-500 transition-all border border-blue-500 rounded-md hover:bg-blue-600 hover:text-white"
               >
                 Learn More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="ml-2 h-4 w-4"
+                  class="w-4 h-4 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -549,9 +549,9 @@
           </div>
         </div>
 
-        <div class="text-center mt-12">
+        <div class="mt-12 text-center">
           <button
-            class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium text-lg"
+            class="px-6 py-3 text-lg font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600"
           >
             View All Products &raquo;
           </button>
@@ -561,84 +561,81 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-20 bg-white">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="max-w-3xl mx-auto mb-16 text-center">
+          <h2 class="mb-4 text-3xl font-bold text-blue-600 md:text-4xl">
             What Our Clients Say
           </h2>
-          <p class="text-xl text-blue-500">
+          <p class="text-xl text-gray-500">
             Don't just take our word for it. Here's what our satisfied customers
             have to say.
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-blue-50 p-8 rounded-lg border border-blue-100">
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="p-8 border border-blue-100 rounded-lg bg-blue-50">
             <div class="flex items-center mb-6">
               <div class="mr-4">
-                <div class="h-12 w-12 rounded-full overflow-hidden">
+                <div class="w-12 h-12 overflow-hidden rounded-full">
                   <img
-                    src="https://placehold.co/80x80/FFFFFF/CCCCCC"
-                    alt="Sarah Johnson"
+                    src="./images/adit.jpg"
+                    alt="Aditya Heru"
                     class="object-cover"
                   />
                 </div>
               </div>
               <div>
-                <h4 class="font-semibold">Sarah Johnson</h4>
-                <p class="text-sm text-gray-600">CEO, TechCorp</p>
+                <h4 class="font-semibold">Aditya Heru</h4>
+                <p class="text-sm text-gray-600">Mahasiswa</p>
               </div>
             </div>
-            <p class="text-gray-700 italic">
-              "DigiPremium's products have transformed our business operations.
-              We've seen a 40% increase in productivity since implementation."
+            <p class="italic text-gray-700">
+              "10000/100 ramah di kantong, admin fast-responn!! prosesnya cepet
+              pulaa❤️"
             </p>
           </div>
 
-          <div class="bg-blue-50 p-8 rounded-lg border border-blue-100">
+          <div class="p-8 border border-blue-100 rounded-lg bg-blue-50">
             <div class="flex items-center mb-6">
               <div class="mr-4">
-                <div class="h-12 w-12 rounded-full overflow-hidden">
+                <div class="w-12 h-12 overflow-hidden rounded-full">
                   <img
-                    src="https://placehold.co/80x80/FFFFFF/CCCCCC"
+                    src="./images/suci.jpg"
                     alt="Michael Chen"
                     class="object-cover"
                   />
                 </div>
               </div>
               <div>
-                <h4 class="font-semibold">Michael Chen</h4>
-                <p class="text-sm text-gray-600">CTO, GrowthLabs</p>
+                <h4 class="font-semibold">Sucianingsih</h4>
+                <p class="text-sm text-gray-600">Mahasiswa</p>
               </div>
             </div>
-            <p class="text-gray-700 italic">
-              "The customer support team is incredible. They're always available
-              and have helped us customize the solutions to fit our unique
-              needs."
+            <p class="italic text-gray-700">
+              "1000/10 sangat fast respon, cepet di proses, amanah, dan tentunya
+              murah👍👍"
             </p>
           </div>
 
-          <div class="bg-blue-50 p-8 rounded-lg border border-blue-100">
+          <div class="p-8 border border-blue-100 rounded-lg bg-blue-50">
             <div class="flex items-center mb-6">
               <div class="mr-4">
-                <div class="h-12 w-12 rounded-full overflow-hidden">
+                <div class="w-12 h-12 overflow-hidden rounded-full">
                   <img
-                    src="https://placehold.co/80x80/FFFFFF/CCCCCC"
+                    src="./images/aliando.jpg"
                     alt="Jessica Williams"
                     class="object-cover"
                   />
                 </div>
               </div>
               <div>
-                <h4 class="font-semibold">Jessica Williams</h4>
-                <p class="text-sm text-gray-600">
-                  Marketing Director, Innovate Inc
-                </p>
+                <h4 class="font-semibold">Aliando</h4>
+                <p class="text-sm text-gray-600">Mahasiswa</p>
               </div>
             </div>
-            <p class="text-gray-700 italic">
-              "We've tried many digital products, but DigiPremium's offerings
-              are by far the most intuitive and powerful we've used."
+            <p class="italic text-gray-700">
+              "10000/100 belinya gampang dan cepat, pelayanan responsif dan
+              ramah. adminnya satset😍"
             </p>
           </div>
         </div>
@@ -647,32 +644,32 @@
 
     <!-- Pricing Section -->
     <section id="pricing" class="py-20 bg-blue-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="max-w-3xl mx-auto mb-16 text-center">
+          <h2 class="mb-4 text-3xl font-bold text-blue-600 md:text-4xl">
             Simple, Transparent Pricing
           </h2>
-          <p class="text-xl text-blue-500">
+          <p class="text-xl text-gray-500">
             Choose the plan that works best for your needs.
           </p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="overflow-hidden bg-white rounded-lg shadow-md">
             <div class="p-8">
-              <h3 class="text-2xl font-bold mb-2">Starter</h3>
+              <h3 class="mb-2 text-2xl font-bold">Spotify</h3>
               <div class="mb-4">
-                <span class="text-4xl font-bold">$99</span>
+                <span class="text-4xl font-bold">34.000 IDR</span>
                 <span class="text-gray-600"> per month</span>
               </div>
-              <p class="text-gray-600 mb-6">
-                Perfect for small businesses just getting started.
+              <p class="mb-6 text-gray-600">
+                For streaming your favorite songs ad-free.
               </p>
-              <ul class="space-y-3 mb-8">
+              <ul class="mb-8 space-y-3">
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -684,12 +681,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>5 Digital Products</span>
+                  <span>Listen Together with Friends in Real Time</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -701,12 +698,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Basic Support</span>
+                  <span>Exclusive Podcasts & Content</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -718,12 +715,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>1 User License</span>
+                  <span>Lyrics Display for Karaoke Mode</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -735,12 +732,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Monthly Updates</span>
+                  <span>Ad-Free Music Streaming</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -752,11 +749,62 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Standard Analytics</span>
+                  <span>Download Songs for Offline Listening</span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5 mr-2 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Unlimited Skips</span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5 mr-2 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>High-Quality Audio (Up to 320 kbps)</span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5 mr-2 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Listen on Any Device</span>
                 </li>
               </ul>
               <button
-                class="w-full bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-md"
+                class="w-full px-4 py-2 text-white bg-gray-800 rounded-md hover:bg-gray-900"
               >
                 Get Started
               </button>
@@ -764,27 +812,27 @@
           </div>
 
           <div
-            class="bg-white rounded-lg overflow-hidden shadow-md ring-2 ring-blue-600 scale-105"
+            class="overflow-hidden scale-105 bg-white rounded-lg shadow-md ring-2 ring-blue-500"
           >
             <div
-              class="bg-blue-600 text-white text-center py-2 text-sm font-medium"
+              class="py-4 font-bold text-center text-white bg-blue-500 text-md"
             >
               Most Popular
             </div>
             <div class="p-8">
-              <h3 class="text-2xl font-bold mb-2">Professional</h3>
+              <h3 class="mb-2 text-2xl font-bold">Netflix</h3>
               <div class="mb-4">
-                <span class="text-4xl font-bold">$199</span>
+                <span class="text-4xl font-bold">41.500 IDR</span>
                 <span class="text-gray-600"> per month</span>
               </div>
-              <p class="text-gray-600 mb-6">
-                Ideal for growing businesses with expanding needs.
+              <p class="mb-6 text-gray-600">
+                The ideal comfort for watching a movie.
               </p>
-              <ul class="space-y-3 mb-8">
+              <ul class="mb-8 space-y-3">
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -796,12 +844,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>15 Digital Products</span>
+                  <span>4K + HDR Quality</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -813,12 +861,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Priority Support</span>
+                  <span>No Ads</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -830,12 +878,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>5 User Licenses</span>
+                  <span>Download for Offline Viewing</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -847,12 +895,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Weekly Updates</span>
+                  <span>Access on All Devices</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -864,12 +912,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Advanced Analytics</span>
+                  <span>Exclusive Movies & Series</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -881,12 +929,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>API Access</span>
+                  <span>Dolby Atmos & Surround Sound</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -898,32 +946,32 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Custom Integrations</span>
+                  <span>Multiple Language Subtitles & Dubs</span>
                 </li>
               </ul>
               <button
-                class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+                class="w-full px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
               >
                 Get Started
               </button>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="overflow-hidden bg-white rounded-lg shadow-md">
             <div class="p-8">
-              <h3 class="text-2xl font-bold mb-2">Enterprise</h3>
+              <h3 class="mb-2 text-2xl font-bold">Canva</h3>
               <div class="mb-4">
-                <span class="text-4xl font-bold">$399</span>
+                <span class="text-4xl font-bold">8.000 IDR</span>
                 <span class="text-gray-600"> per month</span>
               </div>
-              <p class="text-gray-600 mb-6">
-                For large organizations requiring comprehensive solutions.
+              <p class="mb-6 text-gray-600">
+                For an optimal digital editing experience.
               </p>
-              <ul class="space-y-3 mb-8">
+              <ul class="mb-8 space-y-3">
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -935,12 +983,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Unlimited Digital Products</span>
+                  <span>Access to All Premium Templates</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -952,12 +1000,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>24/7 Dedicated Support</span>
+                  <span>Free Images, Videos, and Elements</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -969,12 +1017,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Unlimited User Licenses</span>
+                  <span>Background Remover</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -986,12 +1034,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Daily Updates</span>
+                  <span>Resize Designs with One Click</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1003,12 +1051,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Enterprise Analytics</span>
+                  <span>Custom Brand Kit</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1020,12 +1068,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Full API Access</span>
+                  <span>Real-Time Team Collaboration</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1037,12 +1085,12 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Custom Development</span>
+                  <span>Download in High Quality</span>
                 </li>
                 <li class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-blue-600 mr-2"
+                    class="w-5 h-5 mr-2 text-blue-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1054,13 +1102,13 @@
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Dedicated Account Manager</span>
+                  <span>Premium Animations & Effects</span>
                 </li>
               </ul>
               <button
-                class="w-full bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-md"
+                class="w-full px-4 py-2 text-white bg-gray-800 rounded-md hover:bg-gray-900"
               >
-                Contact Sales
+                Get Started
               </button>
             </div>
           </div>
@@ -1069,20 +1117,20 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-blue-600 text-white">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
+    <section class="py-20 text-white bg-blue-600">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
         <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          <h2 class="mb-6 text-3xl font-bold md:text-4xl">
             Ready to Upgrade Your Digital Experience?
           </h2>
-          <p class="text-xl mb-8 text-blue-100">
+          <p class="mb-8 text-xl text-blue-100">
             Join thousands of users enjoying seamless access to premium apps,
             game top-ups, and exclusive digital services—only at Lunar Store! 🚀
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <div class="flex flex-col justify-center gap-4 sm:flex-row">
             <a
               href="./login.html"
-              class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md font-medium text-lg"
+              class="px-6 py-3 text-lg font-medium text-blue-600 bg-white rounded-md hover:bg-blue-50"
             >
               Login and Order Now
             </a>
@@ -1092,20 +1140,20 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="pb-20 pt-10 bg-white">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <h2 class="text-3xl font-bold mb-2 text-blue-600">Get in Touch</h2>
-        <p class="text-lg text-blue-500 mb-8">
+    <section id="contact" class="pt-10 pb-20 bg-white">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <h2 class="mb-2 text-3xl font-bold text-blue-600">Get in Touch</h2>
+        <p class="mb-8 text-lg text-blue-500">
           Have questions about our products or services? Our team is here to
           help.
         </p>
 
         <div class="flex items-center justify-between">
           <div class="flex items-center">
-            <div class="mt-1 bg-blue-100 p-4 rounded-full text-blue-600 mr-4">
+            <div class="p-4 mt-1 mr-4 text-blue-600 bg-blue-100 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-10 w-10"
+                class="w-10 h-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1119,16 +1167,16 @@
               </svg>
             </div>
             <div>
-              <h2 class="font-bold text-lg text-blue-500">Phone</h2>
+              <h2 class="text-lg font-bold text-blue-500">Phone</h2>
               <p class="text-blue-500">+62 882-5766-6420</p>
             </div>
           </div>
 
           <div class="flex items-center">
-            <div class="mt-1 bg-blue-100 p-4 rounded-full text-blue-600 mr-4">
+            <div class="p-4 mt-1 mr-4 text-blue-600 bg-blue-100 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-10 w-10"
+                class="w-10 h-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1142,16 +1190,16 @@
               </svg>
             </div>
             <div>
-              <h2 class="font-bold text-lg text-blue-500">Email</h2>
+              <h2 class="text-lg font-bold text-blue-500">Email</h2>
               <p class="text-blue-500">lunary202@gmail.com</p>
             </div>
           </div>
 
           <div class="flex items-center">
-            <div class="mt-1 bg-blue-100 p-4 rounded-full text-blue-600 mr-4">
+            <div class="p-4 mt-1 mr-4 text-blue-600 bg-blue-100 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-10 w-10"
+                class="w-10 h-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1171,7 +1219,7 @@
               </svg>
             </div>
             <div>
-              <h2 class="font-bold text-lg text-blue-500">Address</h2>
+              <h2 class="text-lg font-bold text-blue-500">Address</h2>
               <p class="text-blue-500">
                 Panglima Sudirman Street No. 101, Tuban, Indonesia
               </p>
@@ -1182,24 +1230,24 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-14">
-        <div class="grid md:grid-cols-4 gap-8">
+    <footer class="py-12 text-white bg-gray-900">
+      <div class="container px-4 mx-auto sm:px-6 lg:px-14">
+        <div class="grid gap-8 md:grid-cols-4">
           <div>
             <a href="#" class="flex items-center gap-3 mb-3">
               <img src="./images/logo.png" alt="Logo Lunar Store" width="45" />
               <span class="text-white font-bold text-[20px]">Lunar Store</span>
             </a>
-            <p class="text-gray-400 mb-4">
+            <p class="mb-4 text-gray-400">
               Premium digital products for modern businesses.
             </p>
-            <div class="flex space-x-4 items-center">
+            <div class="flex items-center space-x-4">
               <a
                 href="#"
-                class="text-gray-400 hover:text-white transition-colors"
+                class="text-gray-400 transition-colors hover:text-white"
               >
                 <svg
-                  class="h-6 w-6"
+                  class="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -1213,10 +1261,10 @@
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-white transition-colors"
+                class="text-gray-400 transition-colors hover:text-white"
               >
                 <svg
-                  class="h-5 w-5"
+                  class="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -1239,10 +1287,10 @@
               </a>
               <a
                 href="#"
-                class="text-gray-400 hover:text-white transition-colors"
+                class="text-gray-400 transition-colors hover:text-white"
               >
                 <svg
-                  class="h-6 w-6"
+                  class="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -1258,26 +1306,26 @@
           </div>
 
           <div>
-            <h3 class="text-lg font-semibold mb-4">Products</h3>
+            <h3 class="mb-4 text-lg font-semibold">Products</h3>
             <ul class="space-y-2">
               <li>
                 <a
                   href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >Premium Apps</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >Top Up Mobile Legends</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                 >
                   Education Premium Features
                 </a>
@@ -1286,19 +1334,19 @@
           </div>
 
           <div>
-            <h3 class="text-lg font-semibold mb-4">Company</h3>
+            <h3 class="mb-4 text-lg font-semibold">Company</h3>
             <ul class="space-y-2">
               <li>
                 <a
-                  href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  href="./aboutus.html"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >About Us</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >Blog</a
                 >
               </li>
@@ -1306,19 +1354,19 @@
           </div>
 
           <div>
-            <h3 class="text-lg font-semibold mb-4">Authentication</h3>
+            <h3 class="mb-4 text-lg font-semibold">Authentication</h3>
             <ul class="space-y-2">
               <li>
                 <a
                   href="./login.html"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >Login</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="text-gray-400 hover:text-white transition-colors"
+                  class="text-gray-400 transition-colors hover:text-white"
                   >Register</a
                 >
               </li>
@@ -1327,7 +1375,7 @@
         </div>
 
         <div
-          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+          class="pt-8 mt-12 text-center text-gray-400 border-t border-gray-800"
         >
           <p>&copy; 2025 Lunar Store. All rights reserved.</p>
         </div>

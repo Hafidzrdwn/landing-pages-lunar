@@ -1,7 +1,7 @@
- /** @type {import('tailwindcss').Config} */
-export default {
-   content: ["./src/**/*.{html,js}"],
-   theme: {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.html', './src/**/*.js'],
+  theme: {
     extend: {
       colors: {
         blue: {
@@ -19,5 +19,6 @@ export default {
       },
     },
   },
-   plugins: [],
+  plugins: [],
 }
+
